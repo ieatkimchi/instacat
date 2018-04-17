@@ -41,7 +41,8 @@ defmodule Instacat.Mixfile do
       {:cowboy, "~> 1.0"},
       {:absinthe, "~> 1.4.0"},
       {:absinthe_plug, "~> 1.4"},
-      {:absinthe_ecto, "~> 0.1.3"}
+      {:absinthe_ecto, "~> 0.1.3"},
+      {:faker, "~> 0.10", only: [:test, :dev]}
     ]
   end
 
